@@ -1,8 +1,8 @@
 var minimum = function (a, b) {
   if (a > b) {
-    return a;
+    return b;
   }
   else {
-    return b;
+    return a;
   }
 }

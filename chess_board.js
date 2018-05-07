@@ -10,7 +10,7 @@ while (chess_rows < size) {
   else {
     check_hashed = false;
   }
-  while (chess_cols < 8) {
+  while (chess_cols < size) {
     if(check_hashed) {
       chess_board += " ";
     }

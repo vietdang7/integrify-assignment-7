@@ -1,22 +1,20 @@
 /* Counting the letter B */
-var countBs = function(string) {
-  var total = 0;
-  for (i = 0; i < string.length; i++) {
-    if (string[i] === "B") {
-      total = total + 1;
-      console.log("total moi cong them");
+const countBs = function(string) {
+  let total = 0;
+  for (let i = 0; i < string.length; i++) {
+    if (string.toUpperCase()[i] === "B") {
+      total++;
     }
   }
   return total;
 };
 
 /* Counting the letter provided*/
-var countChar = function(string, char) {
-  var total = 0;
-  for (i = 0; i < string.length; i++) {
+const countChar = function(string, char) {
+  let total = 0;
+  for (let i = 0; i < string.length; i++) {
     if (string[i] === char) {
-      total += 1;
-      console.log("total moi cong them");
+      total++;
     }
   }
   return total;

@@ -3,6 +3,7 @@ const countBs = function(string) {
   let total = 0;
   for (let i = 0; i < string.length; i++) {
     if (string.toUpperCase()[i] === "B") {
+      // transform string to uppercase
       total++;
     }
   }

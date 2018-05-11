@@ -1,8 +1,8 @@
-var minimum = function (a, b) {
+var minimum = function(a, b) {
   if (a > b) {
     return b;
-  }
-  else {
+  } else {
     return a;
   }
-}
+};
+// should store return in variable for later use
